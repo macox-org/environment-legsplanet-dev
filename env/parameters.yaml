@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:legsplanet/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:legsplanet/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:legsplanet/prow:hmacToken
+segmentWriteKey: vault:legsplanet:segmentWriteKey
